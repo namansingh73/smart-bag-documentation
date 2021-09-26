@@ -93,7 +93,7 @@
 
   > Renders the **Forgot Password** page which can be used to send reset password mail by the user who unexpectedly forgot his logging password.
 
-- **/resetpassword/:token**
+- **/resetpassword/:token [GET]**
   > Renders the **Reset Password** page which can be used to reset the password of the account in case the user forgot his password.
 
 ####
