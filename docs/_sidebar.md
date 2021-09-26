@@ -17,7 +17,7 @@
 
   - [Introduction](frontend_introduction.md)
   - [Installation](frontend_installation.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
+  - [Modules](frontend_modules.md)
+  - [Models and Routers](frontend_models_and_routers.md)
   - [Markdown configuration](markdown.md)
   - [Language highlighting](language-highlight.md)
