@@ -2,6 +2,8 @@
 
 ## Models
 
+> **Location** : `./models/userModel`
+
 1. Project contains **User** database which stores a user's information such as **Name, Email, Password, Items in Cart, ID** to give relevant and most appropriate recommendations to the logged in user.
 
 ```
@@ -59,9 +61,13 @@
 
 2. User data in being stored in **MongoDB** database and all queries can be found in the **mongoose** documentation : https://www.npmjs.com/package/mongoose
 
+&nbsp;
+
 ## Routers
 
 #### View Router
+
+> **Location** : `./routers/viewRoute`
 
 **The view router is providing the functionality to view the webpages**
 
@@ -96,7 +102,11 @@
 - **/resetpassword/:token [GET]**
   > Renders the **Reset Password** page which can be used to reset the password of the account in case the user forgot his password.
 
+&nbsp;
+
 #### User Router
+
+> **Location** : `./routers/userRoute`
 
 **The user router provides rest APIs for NodeJS backend**
 
@@ -119,7 +129,11 @@
 - **/api/v1/users/resetpassword/:token [PATCH]**
   > This API sends **password reset** request to the server and updates the account password of the user.
 
+&nbsp;
+
 #### Cart Router
+
+> **Location** : `./routers/cartRoute`
 
 **Cart router provides rest APIs for operations on the cart**
 

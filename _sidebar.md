@@ -19,5 +19,5 @@
   - [Installation](frontend_installation.md)
   - [Modules](frontend_modules.md)
   - [Models and Routers](frontend_models_and_routers.md)
-  - [Controllers](markdown.md)
+  - [Controllers](frontend_controllers.md)
   - [HTML Template Engine](language-highlight.md)
