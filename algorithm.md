@@ -32,3 +32,8 @@ A high level overview of the algorithm used would be as follows:
 9) This would be the final recommmendations provided for the user, which are then relayed back to our front end.
 
     ![RECOMMENDATIONS](assets/algorithm/getRecommendations.jpeg) 
+
+
+**The entire algorithm can be summarized in the following block diagram**
+
+ ![BLOCKDIAGRAM](assets/algorithm/fullBlockDiagram.jpeg) 
