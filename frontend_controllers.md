@@ -157,14 +157,14 @@
     > **Previous order history** : `https://smart-groceries.herokuapp.com/getUserOrderHistory?userId=${req.user.userId}`
 
     ```
-    exports.previousOrder = (req,resmnext) => {
+    exports.previousOrder = (req,res,next) => {
 
     };
     ```
 
 4.  **about**
 
-    > **Returns** : Renders about info of the team and shows static data
+    > **Returns** : Renders about info of the team and shows static data.
 
     ```
     exports.about = async (req,res,next)=>{
