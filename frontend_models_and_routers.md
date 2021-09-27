@@ -99,3 +99,42 @@
 #### User Router
 
 **The user router provides rest APIs for NodeJS backend**
+
+- **/api/v1/users/signup [POST]**
+
+  > This API sends **POST** request to the server to create a new user in the database and sends a welcome mail to the newly registered user via **Sendgrid**.
+
+- **/api/v1/users/login [POST]**
+
+  > This API sends **POST** request to the server to login an already registered user.
+
+- **/api/v1/users/logout [GET]**
+
+  > This API sends **GET** request to log the user out of the application.
+
+- **/api/v1/users/forgotpassword [POST]**
+
+  > This API sends **forgot password** mail to the user which contains reset password link to allow user change hi password.
+
+- **/api/v1/users/resetpassword/:token [PATCH]**
+  > This API sends **password reset** request to the server and updates the account password of the user.
+
+#### Cart Router
+
+**Cart router provides rest APIs for operations on the cart**
+
+- **/cart [POST]**
+
+  > The following rest API sends **POST** request to the server to add the current item to the cart if not already present else it updates the quantity in the cart.
+
+- **/clearCart [POST]**
+
+  > This API sends **POST** request to the server to empty the current cart filled by the user.
+
+- **/cartSaveChanges [POST]**
+
+  > This API call sends a **POST** request to save any temporary changes in the cart such as change in quantity or removal or any product from the cart.
+
+- **/addAllInCart [POST]**
+
+  > This API call adds all product present in **User's order history** into the cart allowing him to directly buy all the items bought earlier.
