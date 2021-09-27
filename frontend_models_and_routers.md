@@ -99,3 +99,22 @@
 #### User Router
 
 **The user router provides rest APIs for NodeJS backend**
+
+- **/api/v1/users/signup [POST]**
+
+  > This API sends **POST** request to the server to create a new user in the database and sends a welcome mail to the newly registered user via **Sendgrid**.
+
+- **/api/v1/users/login [POST]**
+
+  > This API sends **POST** request to the server to login an already registered user.
+
+- **/api/v1/users/logout [GET]**
+
+  > This API sends **GET** request to log the user out of the application.
+
+- **/api/v1/users/forgotpassword [POST]**
+
+  > This API sends **forgot password** mail to the user which contains reset password link to allow user change hi password.
+
+- **/api/v1/users/resetpassword/:token [PATCH]**
+  > This API sends **password reset** request to the server and updates the account password of the user.
