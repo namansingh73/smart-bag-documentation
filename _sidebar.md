@@ -8,8 +8,8 @@
 
   - [Introduction](backend_introduction.md)
   - [Installation](backend_installation.md)
-  - [Algorithm](algorithm.md)
   - [Attributes](attributes.md)
+  - [Algorithm](algorithm.md)
   - [Routes and Functions](backend_routesFunctions.md)
   - [Datasets](backend_dataset.md)
 
