@@ -1,8 +1,8 @@
 - Introduction
 
   - [Smart Gross](quickstart.md)
-  - [Technologies Used](technologies.md)
-  - [About Us](more-pages.md)
+  - [Technical Specifications](technologies.md)
+  - [About Us](about_us.md)
 
 - Backend
 
