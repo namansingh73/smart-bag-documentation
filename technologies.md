@@ -1,6 +1,6 @@
 # Technical Specifications
 
-### [Website (Frontend)](frontend_introduction.md)
+### [Website](frontend_introduction.md)
 
 - **PUG**
 
@@ -40,7 +40,7 @@
   - It is a Node. js based Object Data Modeling (ODM) library for MongoDB
   - Used in this project to make database schema
 
-### [Recommendation System (Backend)](backend_introduction.md)
+### [Recommendation System](backend_introduction.md)
 
 - **Flask**
 
@@ -60,3 +60,10 @@
 - **Comma Seperated Values Files**
   - It is a plain text file that contains a lot of data
   - Used in this project to store all datasets like Order History, Products, Browser History
+
+### [Hosting](https://smart-gross.herokuapp.com/)
+
+- **Heroku**
+  - Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+  - Used in the project to host the website Smart Gross
+  - _Heroku is a free hosting service hence it stops the server within 30 minutes if not in use so the site may take some time to load on visiting it for the first time_

@@ -3,6 +3,7 @@
   - [Smart Gross](quickstart.md)
   - [Technical Specifications](technologies.md)
   - [About Us](about_us.md)
+  - [Login Credentials for WebApp](login_cred.md)
 
 - Backend
 

@@ -16,4 +16,8 @@ experience.
 
 To tackle this problem, our team, Chemistry Gods went on to make a demo online grocery store that would help us to visualize the Grocery remmondations based on previous orders of the User and their browser history
 
-To check out how it works, here's the link to [Smart Gross](https://smart-gross.herokuapp.com/)
+To check out how it works, here's the link to [Smart Gross](login_cred.md)
+
+To know more about how the recommendation system works, check out [Backend](backend_introduction.md)
+
+For proof of concept, here are the links to [Website Repo](https://github.com/namansingh73/smartGross) and [Recommendation System Repo](https://github.com/namansingh73/smart-bag)
