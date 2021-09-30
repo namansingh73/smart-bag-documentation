@@ -23,7 +23,13 @@ Thats it! This should install all the packages required, and now the system is r
 Run the app.py file as per your convenience:
 
 1. Use ur editor to directly run the file
-2. Use the CLI to run the file by going to the correct directly and then executing
+2. Use the CLI to run the file by going to the correct directory and then executing
+
+```
+python app.py
+```
+
+The directory containing the file in our case was :
 
 ```
 C:\Users\schaw\Python files\ChemistryGods\smart-bag> python app.py
