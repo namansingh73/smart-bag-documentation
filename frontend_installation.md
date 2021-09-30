@@ -18,7 +18,9 @@ After the installation, you would see the following file structure in the text e
 npm i
 ```
 
-3. Next, you need to configure the environment variables used in the project which are listed below along with their description
+3. Now create a **config.env** file in the root directory which shall hold all the environment variables for the project.
+
+4. Next, you need to configure the environment variables used in the project which are listed below along with their description
    ![Environement Variables](assets/env.png)
 
    > **DATABASE_PASSWORD** : Holds the password of the **MongoDB** database.
@@ -47,7 +49,7 @@ npm i
    >
    > **EMAIL_FROM** : Stores the email address from which logged in users will receive the email.
 
-4. Run the following command in the terminal being in the root directory for dynamic changing of static assests in the browser without needing to reload the page.
+5. Run the following command in the terminal being in the root directory for dynamic changing of static assests in the browser without needing to reload the page.
 
 ```
 npm run start2
