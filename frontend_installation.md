@@ -55,7 +55,7 @@ npm i
 npm run start2
 ```
 
-5. Now run this command in the separate terminal being in the root directory which shall start the server on localhost on the port 3000.
+6. Now run this command in the separate terminal being in the root directory which shall start the server on localhost on the port 3000.
 
 ```
 npm start
